@@ -177,7 +177,7 @@ function getRandomFromArray(arr) {
 function getPassword(){
     file = getRandomFromArray(champions);
     password = file.slice(0, -4);
-    bluredImage.src = "/src/" + file;
+    bluredImage.src = "src/" + file;
 }
 document.addEventListener("DOMContentLoaded", ()=>{
     getPassword();
