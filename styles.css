@@ -33,6 +33,5 @@ fieldset{
     cursor: pointer;
 }
 #iconImg{
-    filter: grayscale(100%);
-    filter: blur(15px);
+    filter: grayscale(100%) blur(10px);
 }
