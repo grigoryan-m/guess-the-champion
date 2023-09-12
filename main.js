@@ -191,7 +191,7 @@ document.addEventListener("keydown", (event) => {
 });
 
 function checkAnswer(){
-    if(inputField.value.toLowerCase() === password.toLowerCase()){
+    if(inputField.value.toLowerCase().trim() === password.toLowerCase()){
         alert("You won!");
     }else{
         alert("You lost! Champion was " + password);
